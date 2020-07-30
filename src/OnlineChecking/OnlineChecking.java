@@ -31,7 +31,7 @@ public void checkInPersonal_PNR_Status_Testcase5(){
 	System.out.println("checkInPersonal_PNR_Status_Testcase5()");
 }
 
-@Test
+@Test(priority=3)
 public void checkInPersonal_PNR_Status_Testcase6(){
 	System.out.println("checkInPersonal_PNR_Status_Testcase6()");
 }
