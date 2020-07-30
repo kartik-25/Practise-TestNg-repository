@@ -5,7 +5,7 @@ package OnlineChecking;
 
 import org.testng.annotations.Test;
 
-public class OnlineChecking {
+public class OnlineChecking2 {
 	
 	@Test (groups={"regression","smoke","sanity"})
 public void checkInOnline_PNR_Number_Testcase1(){
