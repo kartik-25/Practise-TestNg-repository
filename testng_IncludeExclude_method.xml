@@ -1,0 +1,24 @@
+<suite name="Practise_TestNG_Complete">
+	<test thread-count="5" name="Test_Practise">
+		<classes>
+		
+			<class name="Basic_Introduction_TestNG.TestNg_All_Annotation_sequence">
+			<methods>
+			<include name="testcase1()"/>
+			</methods>
+			</class>
+			
+			<class name="Booking.BookFlight">
+			<methods>
+			<exclude name="bookFlight_RoundTrip_TestCase1()"/>
+			</methods>
+			</class>
+			
+			<class name="OnlineChecking.OnlineChecking">
+			<methods>
+			<include name="checkInOnline_PNR_Number_Testcase1()"/>
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

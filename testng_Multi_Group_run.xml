@@ -1,0 +1,22 @@
+<suite name="Practise_TestNG_Complete">
+	<test thread-count="5" name="Test_Practise">
+	
+	<groups>
+	<define name ="all">
+	<include name="smoke"/>
+	<include name="sanity"/>
+	<include name="regression"/>
+	</define>
+	<run>
+	<include name="all"/>
+	</run>
+	
+	</groups>
+		<packages>
+		<package name ="Basic_Introduction_TestNG"/>
+		<package name="Booking"/>
+		<package name="OnlineChecking"/>
+		<package name="Parameterization"/>
+		</packages>
+	</test>
+</suite>

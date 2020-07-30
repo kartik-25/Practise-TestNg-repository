@@ -1,0 +1,13 @@
+<suite name="Practise_TestNG_Complete">
+	<test thread-count="5" name="Test_Practise">
+	
+	<parameter name="URL" value="www.google.com"/>
+	<parameter name="USERNAME" value="abcd"/>
+	<parameter name="PASSWOORD" value="123456"/>
+	<parameter name="COMPANY" value="xyz company"/>
+		<classes>
+			<class name="Parameterization.Parameter_xml"/>"
+		</classes>
+		
+	</test>
+</suite>

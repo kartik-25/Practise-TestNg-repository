@@ -1,0 +1,10 @@
+<suite name="Practise_TestNG_Complete">
+	<test thread-count="2" name="Test_Practise" parallel="methods">
+		<classes>
+			<class name="Parallel_Execution.Example1"/>
+			<class name="Parallel_Execution.Example2"/>
+			<class name="Parallel_Execution.Example3"/>
+			
+		</classes>
+	</test>
+</suite>

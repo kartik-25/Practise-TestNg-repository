@@ -1,0 +1,10 @@
+<suite name="Practise_TestNG_Complete">
+	<test thread-count="5" name="Test_Practise">
+		<packages>
+		<package name ="Basic_Introduction_TestNG"/>
+		<package name="Booking"/>
+		<package name="OnlineChecking"/>
+		<package name="Parameterization"/>
+		</packages>
+	</test>
+</suite>
